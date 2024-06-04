@@ -18,7 +18,7 @@ function divide() {
   result.value = parseFloat(getValue(number1)) / parseFloat(getValue(number2));
 }
 
-function multiple() {
+function multiply() {
   result.value = parseInt(getValue(number1)) * parseInt(getValue(number2));
 }
 
