@@ -1,0 +1,78 @@
+body {
+    background-color: darkslateblue;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    margin: 10px 0px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    width: 40px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+#add-btn {
+    background: darkkhaki;
+}
+
+#subtract-btn {
+    background: darkgoldenrod;
+}
+
+#divide-btn {
+    background: darkmagenta;
+}
+
+#multiple-btn {
+    background: darkorange;
+}
+
+#reset-btn {
+    background: darkred;
+    width: 180px;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 240px;
+    padding: 20px 40px;
+    margin: 0 auto;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#number-1,
+#number-2,
+#result, 
+#operator {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+#number-1,
+#number-2 {
+    width: 50px;
+}
+
+#result {
+    width: 80px;
+}

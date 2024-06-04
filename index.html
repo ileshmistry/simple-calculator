@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="container">
+            <h1>Simple Calculator</h1>
+            <p>Enter numbers into both fields and use the operator to calculate the values</p>
+            <input id="number-1" type="number" size="2" maxlength="2" value="0"></input>
+            <input id="number-2" type="number" size="2" maxlength="2" value="0"></input>
+            <span id="operator"> = </span>
+            <input id="result" disabled type="number" size="2" maxlength="2" value="0"></input>
+            <p></p>
+            <button id="add-btn" onclick="add()">+</button>
+            <button id="subtract-btn" onclick="subtract()">-</button>
+            <button id="divide-btn" onclick="divide()">/</button>
+            <button id="multiple-btn" onclick="multiple()">*</button>
+            <button id="reset-btn" onclick="reset()">reset</button>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
